@@ -105,7 +105,7 @@ class Snake(GameObject):
 
         # Если длина змейки больше, чем 1, удаляем последний сегмент
         if len(self.positions) > self.length:
-            self.positions.pop()  # Удаляем последний сегмент, если длина не увеличилась
+            self.positions.pop()  # Удаляем последний сегмент
 
     def reset(self):
         """Сбрасывает змейку в начальное состояние."""
